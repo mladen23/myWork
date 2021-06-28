@@ -1,0 +1,232 @@
+[class*="col-"]
+{
+float: left;
+}
+
+/* Mobile */
+
+@media only screen and ( max-width: 650px ){
+    #sectionTwo td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        padding: 0;
+        width: 100%;
+    }
+    #sectionTwo img {
+        width: 100%;
+    }
+}
+
+@media only screen and ( max-width: 1059px ) {
+    .col-m-1
+    {
+        width: 8.33%;
+    }
+    
+    .col-m-2
+    {
+        width:16.66%;
+    }
+    .col-m-3
+    {
+        width: 25%;
+    }
+    .col-m-4
+    {
+        width: 33.33%;
+    }
+    .col-m-5
+    {
+        width: 41.66%;
+    }
+    .col-m-6
+    {
+        width: 50%;
+    }
+    .col-m-7
+    {
+        width: 58.33%;
+    }
+    .col-m-8
+    {
+        width: 66.33%;
+    }
+    .col-m-9
+    {
+        width: 75%;
+    }
+    .col-m-10
+    {
+        width: 83.33%;
+    }
+    .col-m-11
+    {
+        width: 91.66%;
+    }
+    .col-m-12
+    {
+        width: 100%;
+    }
+    .hidden {
+        display: none;
+    }
+    header {
+        height: 650px;
+    }
+    header h1 {
+        font-size: 35px;
+        width: 80%;
+        margin-top: 150px;
+    }
+    nav td {
+        text-align: right;
+        width: 10%;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    nav img {
+        width: 100%;
+    }
+    #sectionThree ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .carouselImg {
+        height: 400px;
+        margin-bottom: 0;
+
+    }
+    .carouselContainer {
+        height: 300px;
+    }
+    .testimonials {
+        height: 250px;
+    }
+    .testimonials p:first-child {
+        font-size: 25px;
+        padding: 50px 100px 15px 50px;
+    }
+}
+
+/* Tablet / Lap Top */
+
+@media only screen and (min-width: 1060px) and ( max-width: 1419px ){
+
+    .col-t-1
+    {
+        width: 8.33%;
+    }
+    
+    .col-t-2
+    {
+        width:16.66%;
+    }
+    .col-t-3
+    {
+        width: 25%;
+    }
+    .col-t-4
+    {
+        width: 33.33%;
+    }
+    .col-t-5
+    {
+        width: 41.66%;
+    }
+    .col-t-6
+    {
+        width: 50%;
+    }
+    .col-t-7
+    {
+        width: 58.33%;
+    }
+    .col-t-8
+    {
+        width: 66.33%;
+    }
+    .col-t-9
+    {
+        width: 75%;
+    }
+    .col-t-10
+    {
+        width: 83.33%;
+    }
+    .col-t-11
+    {
+        width: 91.66%;
+    }
+    .col-t-12
+    {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 50px;
+        width: 80%;
+    }
+    .testimonials p:first-child {
+        font-size: 30px;
+        padding: 70px 200px 15px 80px;
+    }
+}
+
+/* PC */
+
+@media only screen and (min-width: 1420px) 
+{
+    .col-1
+    {
+        width: 8.33%;
+    }
+    
+    .col-2
+    {
+        width:16.66%;
+    }
+    .col-3
+    {
+        width: 25%;
+    }
+    .col-4
+    {
+        width: 33.33%;
+    }
+    .col-5
+    {
+        width: 41.66%;
+    }
+    .col-6
+    {
+        width: 50%;
+    }
+    .col-7
+    {
+        width: 58.33%;
+    }
+    .col-8
+    {
+        width: 66.33%;
+    }
+    .col-9
+    {
+        width: 75%;
+    }
+    .col-10
+    {
+        width: 83.33%;
+    }
+    .col-11
+    {
+        width: 91.66%;
+    }
+    .col-12
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+

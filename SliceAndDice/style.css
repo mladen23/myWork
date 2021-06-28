@@ -1,0 +1,275 @@
+/* General */
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Header elements style */
+
+header {
+    background-image: url('images/header.jpg');
+    color: white;
+    height: 750px;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+    width: 70%;
+    margin: auto;
+    margin-top: 250px;
+    padding-bottom: 30px;
+}
+
+nav {
+    margin: 30px 0 20px 0;
+    padding-bottom: 30px;
+}
+
+nav table {
+    border-bottom: 1px solid gray;
+}
+
+nav td {
+    text-align: right;
+    width: 10%;
+    padding-left: 30px;
+    font-size: 15px;
+}
+
+nav td:first-child {
+    text-align: left;
+    float: left;
+    width: 50%;
+    padding-left: 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #8f929c;
+}
+
+a:hover {
+    color: #cbd0df;
+}
+
+header p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 70px;
+    font-size: 25px;
+}
+
+button {
+    background-color: #e84546;
+    color: white;
+    padding: 15px 50px;
+}
+
+button:hover {
+    background-color: #df1818;
+    border: 1px solid #8f929c;
+}
+
+/* First section */
+
+#sectionOne table {
+    padding-top: 100px;
+    color: gray;
+    padding-bottom: 100px;
+}
+
+#sectionOne td {
+    padding: 20px;
+}
+
+#sectionOne td h4 {
+    padding: 25px 0 25px 0;
+    color: black;
+}
+
+/* Second section */
+
+#sectionTwo td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+#sectionTwo img {
+    height: 100%;
+    float: left;
+}
+
+/* Section three */
+
+#sectionThree ul {
+    list-style: none;
+    padding: 100px 10px 100px 10px;
+    text-align: left;
+}
+
+#sectionThree ul li {
+    font-size: 15px;
+    color: #696d70;
+}
+
+#sectionThree img {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+#sectionThree p {
+    padding-bottom: 20px;
+}
+
+#sectionThree ul li h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    padding-bottom: 5px;
+}
+
+#sectionThree ul li:nth-child(3) {
+    color: red;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+/* Article / testimonials */
+
+.carouselImg {
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+article img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Section four */
+
+#sectionFour h2 {
+    padding-bottom: 25px;
+    font-weight: normal;
+    font-size: 30px;
+    color: #2b2b2b;
+}
+
+#sectionFour p {
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+
+#sectionFour button {
+    margin-bottom: 100px;
+    padding: 15px 80px;
+}
+
+#sectionFour button:hover {
+    background-color: #df1818;
+    border: 1px solid #8f929c;
+}
+
+/* Footer elements style */
+
+footer {
+    color: white;
+}
+
+.first {
+    background-color: #3a3e61;
+}
+
+.first table {
+    padding: 60px 0 80px 0;
+}
+
+.first table tr {
+    padding-bottom: 10px;
+}
+
+.first p {
+    color: #9fa2c5;
+}
+
+.second {
+    background-color: #313455;
+    padding: 25px 0;
+    color: gray;
+}
+
+footer .fa {
+    color: white;
+    border: 2px solid white;
+} 
+
+/* Icons */
+
+.fa {
+    border: 1px solid #c6c7c9;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #c6c7c9;
+}
+
+/* carousel */
+
+.carouselContainer {
+    background-color: #523549;
+    position: relative;
+    height: 550px;
+}
+
+.testimonials {
+    display: none;
+    color: white;
+    text-align: left;
+    height: 420px;
+}
+
+.testimonials p:first-child {
+    font-family: 'Cardo', serif;
+    font-size: 35px;
+    font-weight: lighter;
+    padding: 100px 300px 30px 80px;
+}
+
+.testimonials p:last-child {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 80px;
+    margin-bottom: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 3px;
+    border-radius: 50%;
+    background-color: #745a6d;
+    display: inline-block;
+}
+
+.activeDot {
+    background-color: white;
+}
+
+.navigationDots {
+    text-align: left;
+    padding-left: 280px;
+    padding-top: 10px;
+}
